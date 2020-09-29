@@ -1,0 +1,110 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="410829724" file="C:\Users\Skadi\Documents\intland_codebeamer_rmi.prj" location="C:\Users\Skadi\Documents" name="intland_codebeamer_rmi" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>codeBeamer RMI</param.appname>
+    <param.authnamewatermark>Intland Software, All Rights Reserved</param.authnamewatermark>
+    <param.email>sales@intland.com</param.email>
+    <param.company>www.intland.com</param.company>
+    <param.summary>codeBeamer Requirement Management Interface for MATLAB Simulink Verification and Validation.
+Requires Intland codeBeamer 7.9.0 or higher.</param.summary>
+    <param.description>An Add-On for MATLAB Simulink Verification and Validation, that allows to link 
+
+  * Requirements,
+  * Components,
+  * Test Cases,
+  * etc.
+
+in Intland's award-winning "codeBeamer ALM" with MATLAB  Simulink Models.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\cb_rmi_logo.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\codeBeamer RMI.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Simulink Verification and Validation</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>93</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.0</item>
+      <item>8.7</item>
+      <item>3.11</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>a04c52a6-a689-4921-86d5-67a62ed73196</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+**/*.asv
+intland_codebeamer_rmi.m
++intland/*.m
++intland/@CodeBeamer/*.m</param.exclude.filters>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <param.matlabpath.excludes />
+    <unset>
+      <param.version />
+      <param.output />
+      <param.platforms />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+      <param.matlabpath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}\intland_codebeamer_rmi</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\intland_codebeamer_rmi\+intland</file>
+      <file>${PROJECT_ROOT}\intland_codebeamer_rmi\intland_codebeamer_rmi.p</file>
+      <file>${PROJECT_ROOT}\intland_codebeamer_rmi\sl_customization.m</file>
+      <file>${PROJECT_ROOT}\intland_codebeamer_rmi\sl_customization.p</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Skadi\Documents" name="codeBeamer RMI.mltbx" optional="false">C:\Users\Skadi\Documents\codeBeamer RMI.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
